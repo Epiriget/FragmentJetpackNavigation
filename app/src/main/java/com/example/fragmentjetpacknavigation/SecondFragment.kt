@@ -46,6 +46,4 @@ class SecondFragment : Fragment() {
         val bundle = Bundle().apply { putString(CALLED_FROM_KEY, SecondFragment::class.java.simpleName) }
         navController.navigate(R.id.action_secondFragment_to_thirdFragment, bundle)
     }
-
-
 }

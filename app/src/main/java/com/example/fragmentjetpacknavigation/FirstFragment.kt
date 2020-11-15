@@ -28,13 +28,6 @@ class FirstFragment : Fragment() {
         const val CALLED_FROM_KEY = "FirstFragment.CALLED_FROM_KEY"
         public const val SERVICE_RESULT = "SERVICE_RESULT"
         public const val SERVICE_START_ARGS_KEY = "SERVICE_ARGS"
-//        fun getInstance(calledFrom: String) {
-//            FirstFragment().apply {
-//                arguments = Bundle().apply {
-//                    putString(CALLED_FROM_KEY, calledFrom)
-//                }
-//            }
-//        }
     }
 
     override fun onAttach(context: Context) {
